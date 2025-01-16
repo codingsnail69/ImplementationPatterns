@@ -5,13 +5,16 @@ This repository contains basic implementation patterns in C++ intended for study
 
 ## Structure
 
-The repository is divided into two main parts:
+The repository is divided into three main parts:
 
 1. **Befehl_Implementation_Pattern**  
    This folder demonstrates the Command design pattern (`Befehl` translates to "Command" in German). It showcases how commands can be encapsulated as objects to decouple request invocations from their execution.
 
 2. **Pubsub-template**  
    This folder includes an example of a Publish-Subscribe (PubSub) template, a messaging pattern used for event-driven programming.
+
+3. **Watcher-template**  
+   This folder includes an example of a Watcher template, a pattern similar to PubSub, but more general. So You can use this more often.
 
 ## Note
 You may notice some German words (e.g., "Befehl") in the code or filenames. We apologize for this inconsistency—it reflects the original development process. Feel free to treat these as part of the learning experience!
